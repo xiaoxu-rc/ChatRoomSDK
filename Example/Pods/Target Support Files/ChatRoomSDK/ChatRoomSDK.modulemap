@@ -1,6 +1,0 @@
-framework module ChatRoomSDK {
-  umbrella header "ChatRoomSDK-umbrella.h"
-
-  export *
-  module * { export * }
-}
