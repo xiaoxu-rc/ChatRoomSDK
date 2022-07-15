@@ -38,6 +38,6 @@ TODO: Add long description of the pod here.
 
    s.public_header_files = 'ChatRoomSDK/Classes/**/*.h'
    s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'AFNetworking', '3.0'
+   s.dependency 'AFNetworking', '3.0.0'
    s.dependency 'IMLibCore', '0.1.0'
 end

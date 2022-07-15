@@ -1,13 +1,11 @@
+source 'https://github.com/xiaoxu-rc/MultiSDKSpec.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
 use_frameworks!
 
 platform :ios, '10.0'
 
 target 'ChatRoomSDK_Example' do
   pod 'ChatRoomSDK', :path => '../'
-
-  target 'ChatRoomSDK_Tests' do
-    inherit! :search_paths
-
-    pod 'FBSnapshotTestCase'
-  end
+  
 end

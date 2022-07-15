@@ -1,0 +1,43 @@
+PODS:
+  - AFNetworking (3.0.0):
+    - AFNetworking/NSURLSession (= 3.0.0)
+    - AFNetworking/Reachability (= 3.0.0)
+    - AFNetworking/Security (= 3.0.0)
+    - AFNetworking/Serialization (= 3.0.0)
+    - AFNetworking/UIKit (= 3.0.0)
+  - AFNetworking/NSURLSession (3.0.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.0)
+  - AFNetworking/Security (3.0.0)
+  - AFNetworking/Serialization (3.0.0)
+  - AFNetworking/UIKit (3.0.0):
+    - AFNetworking/NSURLSession
+  - ChatRoomSDK (0.1.0):
+    - AFNetworking (= 3.0.0)
+    - IMLibCore (= 0.1.0)
+  - IMLibCore (0.1.0):
+    - AFNetworking (= 3.0)
+
+DEPENDENCIES:
+  - ChatRoomSDK (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+  https://github.com/xiaoxu-rc/MultiSDKSpec.git:
+    - IMLibCore
+
+EXTERNAL SOURCES:
+  ChatRoomSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 932ff751f9d6fb1dad0b3af58b7e3ffba0a4e7fd
+  ChatRoomSDK: 73d94645c6dd1bcf6f1c304a6a9dc40788573c43
+  IMLibCore: c01b590150a2bc643909ed40eaaa2a29714685c4
+
+PODFILE CHECKSUM: 24eac3c01b0b5edb867ce091a43341341fed95f7
+
+COCOAPODS: 1.11.3
