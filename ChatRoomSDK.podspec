@@ -32,9 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'ChatRoomSDK/Classes/**/*'
   
-    s.resource_bundles = {
-     'ChatRoomSDK' => ['ChatRoomSDK/Assets/*.png']
-    }
+    # s.resource_bundles = {
+    #  'ChatRoomSDK' => ['ChatRoomSDK/Assets/*.png']
+    # }
 
    s.public_header_files = 'ChatRoomSDK/Classes/**/*.h'
    s.frameworks = 'UIKit', 'MapKit'
